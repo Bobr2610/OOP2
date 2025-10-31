@@ -46,6 +46,7 @@ public:
     bool isEqual(const Decimal& other) const;
     
     // Assignment arithmetic operations (as class methods)
+    // Note: These methods modify the object for convenience but violate strict immutability
     Decimal& addAssign(const Decimal& other);
     Decimal& subtractAssign(const Decimal& other);
     

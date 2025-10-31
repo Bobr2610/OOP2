@@ -1,0 +1,4 @@
+C:/Users/misha/.cursor/worktrees/OOP_LAB_2/NvkTR/code/build/CMakeFiles/decimal_lib.dir
+C:/Users/misha/.cursor/worktrees/OOP_LAB_2/NvkTR/code/build/CMakeFiles/OOP_LAB_2.dir
+C:/Users/misha/.cursor/worktrees/OOP_LAB_2/NvkTR/code/build/CMakeFiles/edit_cache.dir
+C:/Users/misha/.cursor/worktrees/OOP_LAB_2/NvkTR/code/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libdecimal_lib.a CMakeFiles/decimal_lib.dir/decimal.cpp.obj
+C:\MinGW\bin\ranlib.exe libdecimal_lib.a

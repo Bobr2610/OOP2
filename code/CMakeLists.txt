@@ -1,3 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(OOP_LAB_2 CXX)
+
 add_library(decimal_lib decimal.cpp)
 set_property(TARGET decimal_lib PROPERTY CXX_STANDARD 17)
 
