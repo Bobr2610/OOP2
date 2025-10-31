@@ -54,8 +54,9 @@ void demonstrateDecimal() {
     Decimal dec9("1000");
     Decimal dec10("500");
     std::cout << "Before addAssign: " << dec9.toString() << std::endl;
-    dec9.addAssign(dec10);
-    std::cout << "After addAssign: " << dec9.toString() << std::endl;
+    Decimal dec9Result = dec9.addAssign(dec10);
+    std::cout << "After addAssign (new object): " << dec9Result.toString() << std::endl;
+    std::cout << "Original object unchanged: " << dec9.toString() << std::endl;
     
     // Test large numbers
     std::cout << "\n5. Testing large numbers:" << std::endl;

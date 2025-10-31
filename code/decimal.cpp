@@ -237,15 +237,13 @@ bool Decimal::isEqual(const Decimal& other) const {
     return isEqualTo(other);
 }
 
-// Assignment arithmetic operations
-Decimal& Decimal::addAssign(const Decimal& other) {
-    *this = add(other);
-    return *this;
+// Assignment arithmetic operations (return new objects for immutability)
+Decimal Decimal::addAssign(const Decimal& other) const {
+    return add(other);
 }
 
-Decimal& Decimal::subtractAssign(const Decimal& other) {
-    *this = subtract(other);
-    return *this;
+Decimal Decimal::subtractAssign(const Decimal& other) const {
+    return subtract(other);
 }
 
 // Utility methods

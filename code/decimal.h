@@ -46,8 +46,9 @@ public:
     bool isEqual(const Decimal& other) const;
     
     // Assignment arithmetic operations (as class methods)
-    Decimal& addAssign(const Decimal& other);
-    Decimal& subtractAssign(const Decimal& other);
+    // Return new objects to maintain immutability
+    Decimal addAssign(const Decimal& other) const;
+    Decimal subtractAssign(const Decimal& other) const;
     
     // Utility methods
     std::string toString() const;
