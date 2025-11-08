@@ -2,7 +2,6 @@
 #include "decimal.h"
 #include <stdexcept>
 
-// Decimal Class Tests
 class DecimalTest : public ::testing::Test {
 protected:
     void SetUp() override {}
